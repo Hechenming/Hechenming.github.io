@@ -14,8 +14,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-our-paper-precise-uav-mmw-vision-positioning-was-accpeted-by-jsac-2024",
-          title: 'Our paper Precise UAV MMW-Vision Positioning was accpeted by JSAC 2024! 😊 ✨...',
+            },},{id: "news-our-paper-mmplace-was-accpeted-by-ra-l-2024",
+          title: 'Our paper mmPlace  was accpeted by RA-L 2024! 😊 ✨',
           description: "",
           section: "News",},{id: "news-our-paper-see-through-vehicles-was-accpeted-by-mobicom-2024",
           title: 'Our paper See Through Vehicles  was accpeted by MobiCom 2024! 😊 ✨',
