@@ -51,3 +51,8 @@ blockquote {
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
 }
+
+.about .profile-img {
+  width: 120px !important;   // 强制覆盖
+  height: auto;
+}
