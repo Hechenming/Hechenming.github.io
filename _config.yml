@@ -3,11 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+first_name: Chenming
+# middle_name: R.
+last_name: He(何晨铭)
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  hechenming@mail.ustc.edu.cn
+
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -16,11 +17,11 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 👋 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://Hechenming.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -48,10 +49,10 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -79,25 +80,25 @@ pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
+google_site_verification: 8Mtq_NRYHc-nLNgSQMtOWRGS7MqYFjOA9xom5Og7LD8
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
 # Pagination
 pagination:
   enabled: true
 
-related_blog_posts:
-  enabled: true
-  max_related: 5
+# related_blog_posts:
+#   enabled: true
+#   max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -124,10 +125,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+  # - name: Google Blog
+  #   posts:
+  #     - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+  #       published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -191,6 +192,15 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/books.md
+  - _pages/dropdown.md
+  - _pages/profiles.md
+  - _pages/blog.md
+  - _pages/projects.md
+  - _pages/teaching.md
+  - _pages/cv.md
+  - _pages/publications.md
+  - _pages/repositories.md
 keep_files:
   - CNAME
   - .nojekyll
@@ -246,12 +256,12 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  posts:
-    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-    permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+  # posts:
+  #   enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  #   permalinks:
+  #     year: "/blog/:year/"
+  #     tags: "/blog/:type/:name/"
+  #     categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
@@ -263,8 +273,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [He]
+  first_name: [Chenming]
 
   style: apa
   locale: en
@@ -307,7 +317,6 @@ filtered_bibtex_keywords:
     award,
     award_name,
     bibtex_show,
-    blog,
     code,
     google_scholar_id,
     html,
@@ -323,7 +332,7 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+max_author_limit: 5 # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -379,7 +388,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
