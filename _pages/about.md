@@ -25,6 +25,6 @@ announcements:
 
 #### Welcome to Chenming’s Homepage! 👋
 
-I am a fourth-year Ph.D. candidate at the University of Science and Technology of China (USTC), supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
+I am a fifth-year Ph.D. candidate at the University of Science and Technology of China (USTC), supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
 
 I am passionate about real-world sensing and perception, with a particular focus on mmWave radar–based vehicle sensing, including on-board perception for autonomous vehicles and roadside perception for traffic monitoring. My current research interests include millimeter-wave sensing, autonomous driving, smart city, and embodied intelligence.
