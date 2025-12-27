@@ -15,7 +15,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
             },},{id: "news-our-paper-mmplace-was-accpeted-by-ra-l-2024",
-          title: 'Our paper mmPlace  was accpeted by RA-L 2024! 😊 ✨',
+          title: 'Our paper mmPlace  was accpeted by RA-L 2024!',
           description: "",
           section: "News",},{id: "news-our-paper-see-through-vehicles-was-accpeted-by-mobicom-2024",
           title: 'Our paper See Through Vehicles  was accpeted by MobiCom 2024! 😊 ✨',
@@ -24,7 +24,10 @@ ninja.data = [{
           title: 'Our paper Ghost Points Matter  was accpeted by MobiCom 2025! 😊 ✨',
           description: "",
           section: "News",},{id: "news-our-paper-gr-fall-was-accpeted-by-ubicomp-2025",
-          title: 'Our paper GR-Fall  was accpeted by UbiComp 2025! 😊 ✨',
+          title: 'Our paper GR-Fall  was accpeted by UbiComp 2025!',
+          description: "",
+          section: "News",},{id: "news-our-paper-mmmuse-was-accpeted-by-ubicomp-2026",
+          title: 'Our paper mmMUSE  was accpeted by UbiComp 2026!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
