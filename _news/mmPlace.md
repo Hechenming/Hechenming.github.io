@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="highlight-blue ">mmPlace </span> was accpeted by RA-L 2024!
+Our paper <span class="highlight-blue ">mmPlace </span> was accepted by RA-L 2024!

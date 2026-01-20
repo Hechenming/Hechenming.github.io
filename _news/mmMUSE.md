@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="highlight-blue ">mmMUSE </span> was accpeted by UbiComp 2026! 
+Our paper <span class="highlight-blue ">mmMUSE </span> was accepted by UbiComp 2026! 

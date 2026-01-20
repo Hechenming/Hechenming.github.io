@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="highlight-blue ">FlowGait</span> and <span class="highlight-blue ">FeelWave </span> have been accpeted by CHI 2026! 
+Our paper <span class="highlight-blue ">FlowGait</span> and <span class="highlight-blue ">FeelWave </span> have been accepted by CHI 2026! 
