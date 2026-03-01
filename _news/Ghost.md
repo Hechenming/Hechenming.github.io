@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="highlight-blue ">Ghost Points Matter </span> was accepted by MobiCom 2025! 😊 ✨
+Our paper <span class="highlight-blue ">mmTunnel</span> was accepted by MobiCom 2025!

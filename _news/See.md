@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper <span class="highlight-blue ">See Through Vehicles </span> was accepted by MobiCom 2024! 😊 ✨
+Our paper <span class="highlight-blue ">mmOVD </span> was accepted by MobiCom 2024!
