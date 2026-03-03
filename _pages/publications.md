@@ -13,6 +13,10 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
+<p style="font-size: 0.9rem; margin-top: 1rem;">
+* Equal contribution (authors listed interchangeably)
+</p>
+
 <div class="publications">
 
 {% bibliography %}
