@@ -25,6 +25,6 @@ announcements:
 
 #### Welcome to Chenming’s Homepage! 👋
 
-I am a fifth-year Ph.D. candidate at the University of Science and Technology of China (USTC), supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
+I recently received my Ph.D. from the School of Computer Science at the University of Science and Technology of China (USTC), supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). In September 2026, I will join the Department of Information Engineering at The Chinese University of Hong Kong (CUHK) as a Postdoctoral Researcher, working with Professor [Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
 
-I am passionate about real-world sensing and perception, with a particular focus on mmWave radar–based vehicle sensing, including on-board perception for autonomous vehicles and roadside perception for traffic monitoring. My current research interests include millimeter-wave sensing, autonomous driving, smart city, and embodied intelligence.
+My research focuses on intelligent sensing and perception, with a particular interest in mmWave sensing. I develop sensing systems and techniques for perceiving vehicles, UAVs, and humans across diverse real-world environments, leveraging platforms ranging from on-board and roadside radars to 5G-Advanced integrated sensing and communication (ISAC) infrastructure. I have also explored acoustic sensing for robotics. My long-term goal is to advance intelligent sensing for embodied intelligence.
