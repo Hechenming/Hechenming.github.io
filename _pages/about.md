@@ -6,7 +6,7 @@ subtitle: University of Science and Technology of China（USTC)
 
 profile:
   align: center
-  image: hcm_1.jpg
+  image: hcm.jpg
   image_circular: false # crops the image to make it circular
   image_width: "180"
   more_info: >
