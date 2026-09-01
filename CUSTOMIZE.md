@@ -19,13 +19,13 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _books/: contains the bookshelf pages
 ├── 📄 _config.yml: the configuration file of the template
 ├── 📂 _data/: contains some of the data used in the template
+│   ├── 📄 news.yml: all news items displayed on the website
 │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
 │   ├── 📄 repositories.yml: users and repositories info in YAML format
 │   └── 📄 socials.yml: your social media and contact info in YAML format
 ├── 📂 _includes/: contains code parts that are included in the main HTML file
 │   └── 📄 news.liquid: defines the news section layout in the about page
 ├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files
-├── 📂 _news/: the news that will appear in the news section in the about page
 ├── 📂 _pages/: contains the pages of the website
 |   └── 📄 404.md: 404 page (page not found)
 ├── 📂 _posts/: contains the blog posts
@@ -75,11 +75,11 @@ You can create new projects by adding new Markdown files in the [\_projects](_pr
 
 ## Adding some news
 
-You can add news in the about page by adding new Markdown files in the [\_news](_news/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
+News displayed on the about page are stored together in [`_data/news.yml`](_data/news.yml). Add a new item with a `date` and `content`; the news template sorts all items by date in descending order automatically.
 
 ## Adding Collections
 
-This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on projects page and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
+This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. This site uses collections for `projects` and `books`. Items from the `projects` collection are displayed on a responsive grid on the projects page, while items from the `books` collection are displayed on the bookshelf page inside `submenus`.
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md).
 
@@ -202,10 +202,9 @@ You can also:
 
 To remove the news section, you can:
 
-- delete the [\_news](_news/) directory
+- delete [`_data/news.yml`](_data/news.yml)
 - delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
 - remove the `announcements` part in [\_pages/about.md](_pages/about.md)
-- remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 ### Removing the projects page
 
