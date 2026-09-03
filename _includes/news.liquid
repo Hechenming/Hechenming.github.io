@@ -24,6 +24,26 @@
         {% endfor %}
       </table>
     </div>
+    {% if include.limit and news_size > news_limit %}
+      {% assign expanded_news_limit = 10 | minus: news_limit %}
+      {% if expanded_news_limit > 0 %}
+        <details class="news-more">
+          <summary>More news</summary>
+          <div class="table-responsive">
+            <table class="table table-sm table-borderless">
+              {% for item in news offset: news_limit limit: expanded_news_limit %}
+                <tr>
+                  <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+                  <td>
+                    {{ item.content | emojify }}
+                  </td>
+                </tr>
+              {% endfor %}
+            </table>
+          </div>
+        </details>
+      {% endif %}
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in `_data/news.yml`
+  limit: 5 # number shown initially; "More news" expands the list to 10 items
 ---
 
 #### Welcome to Chenming’s Homepage! 👋

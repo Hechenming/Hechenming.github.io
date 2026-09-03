@@ -52,6 +52,21 @@ blockquote {
   padding-bottom: 0.2rem;
 }
 
+.news-more {
+  margin-top: 0.25rem;
+}
+
+.news-more summary {
+  width: max-content;
+  color: var(--global-theme-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.news-more[open] summary {
+  margin-bottom: 0.25rem;
+}
+
 .about .profile-img {
   width: 120px !important; // 强制覆盖
   height: auto;
