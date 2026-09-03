@@ -52,8 +52,17 @@ blockquote {
   padding-bottom: 0.2rem;
 }
 
+.news {
+  margin-bottom: 1.5rem;
+}
+
+.news > .table-responsive > .table,
+.news-more .table {
+  margin-bottom: 0;
+}
+
 .news-more {
-  margin-top: 0.25rem;
+  margin-top: 0.15rem;
 }
 
 .news-more summary {
