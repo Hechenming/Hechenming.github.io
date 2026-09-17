@@ -2,7 +2,7 @@
 layout: about
 title: Chenming He
 permalink: /
-subtitle: University of Science and Technology of China（USTC)
+subtitle: "Postdoctoral Fellow, The Chinese University of Hong Kong <br> Ph.D., University of Science and Technology of China, June 2026"
 
 profile:
   align: center
@@ -10,9 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   image_width: "180"
   more_info: >
-    <p>Xinzhi Building B803</p>
-    <p>No.100 Fuxing Road,</p>
-    <p>Hefei, Anhui</p>
+    <p>Ho Sin-Hang Engineering Building,</p>
+    <p>CUHK, Hong Kong</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,6 +24,6 @@ announcements:
 
 #### Welcome to Chenming’s Homepage! 👋
 
-I recently received my Ph.D. from the School of Computer Science at the University of Science and Technology of China (USTC), supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). In September 2026, I will join the Department of Information Engineering at The Chinese University of Hong Kong (CUHK) as a Postdoctoral Researcher, working with Professor [Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
+I am a Postdoctoral Fellow in the Department of Information Engineering at The Chinese University of Hong Kong (CUHK), working with Professor [Guoliang Xing](https://staff.ie.cuhk.edu.hk/~glxing/). I received my Ph.D. from the School of Computer Science at the University of Science and Technology of China (USTC) in June 2026, supervised by Professor [Yanyong Zhang](http://staff.ustc.edu.cn/~yanyongz/). Before that, I received my B.E. in Computer Science and Technology from the School of the Gifted Young at USTC in 2021.
 
 My research focuses on intelligent sensing and perception, with a particular interest in mmWave sensing. I develop sensing systems and techniques for perceiving vehicles, UAVs, and humans across diverse real-world environments, leveraging platforms ranging from on-board and roadside radars to 5G-Advanced integrated sensing and communication (ISAC) infrastructure. I have also explored acoustic sensing for robotics. My long-term goal is to advance intelligent sensing for embodied intelligence.
